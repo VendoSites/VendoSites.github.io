@@ -42139,7 +42139,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 66px;
+  min-height: 69px;
 }
 
 .u-header .u-text-1 {
@@ -42148,30 +42148,46 @@ a.u-link.u-text-hover-grey-90:hover {
   margin: 18px auto 20px;
 }
 
-@media (max-width: 991px) {
-  .u-header .u-sheet-1 {
-    min-height: 76px;
-  }
-
-  .u-header .u-text-1 {
+.u-header .u-text-2 {
+  font-family: Poppins;
+  font-size: 1.125rem;
+  margin: 25px auto;
+}
+@media (max-width: 1199px) {
+  .u-header .u-text-2 {
     width: auto;
-    margin-top: 24px;
-    margin-bottom: 24px;
+  }
+}
+@media (max-width: 991px) {
+  .u-header .u-text-1 {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 @media (max-width: 767px) {
   .u-header .u-text-1 {
     font-size: 1rem;
   }
+
+  .u-header .u-text-2 {
+    font-size: 1rem;
+  }
 }
 @media (max-width: 575px) {
   .u-header .u-sheet-1 {
-    min-height: 52px;
+    min-height: 74px;
   }
 
   .u-header .u-text-1 {
+    width: auto;
     font-size: 0.75rem;
-    margin: 16px 14px 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .u-header .u-text-2 {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
  .u-footer {
